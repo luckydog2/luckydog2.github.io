@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2019-09-22T05:47:47.506Z</updated>
+  <updated>2019-09-24T12:12:28.491Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -15,6 +15,31 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>安装配置</title>
+    <link href="http://yoursite.com/2019/09/25/%E5%AE%89%E8%A3%85%E9%85%8D%E7%BD%AE/"/>
+    <id>http://yoursite.com/2019/09/25/安装配置/</id>
+    <published>2019-09-24T20:02:30.000Z</published>
+    <updated>2019-09-24T12:12:28.491Z</updated>
+    
+    <content type="html"><![CDATA[<p><a href="https://www.cnblogs.com/opsprobe/p/9126411.html" target="_blank" rel="noopener">LAMP配置</a></p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;&lt;a href=&quot;https://www.cnblogs.com/opsprobe/p/9126411.html&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;LAMP配置&lt;/a&gt;&lt;/p&gt;
+
+      
+    
+    </summary>
+    
+    
+    
+      <category term="安装配置" scheme="http://yoursite.com/tags/%E5%AE%89%E8%A3%85%E9%85%8D%E7%BD%AE/"/>
+    
+  </entry>
   
   <entry>
     <title>Hello World</title>
