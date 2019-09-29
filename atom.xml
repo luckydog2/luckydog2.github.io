@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2019-09-24T12:12:28.491Z</updated>
+  <updated>2019-09-29T14:01:47.382Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -15,6 +15,31 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>CUMTCTF_FINAL</title>
+    <link href="http://yoursite.com/2019/09/30/CUMTCTF-FINAL/"/>
+    <id>http://yoursite.com/2019/09/30/CUMTCTF-FINAL/</id>
+    <published>2019-09-29T20:29:16.000Z</published>
+    <updated>2019-09-29T14:01:47.382Z</updated>
+    
+    <content type="html"><![CDATA[<p>进了校赛决赛！(名次主要靠队友,而且学长放了好几个原题)加油</p><h1 id="Web1"><a href="#Web1" class="headerlink" title="Web1"></a>Web1</h1><p>查看源码<br>给网址添加参数?source=1<br>如果提交的seed和md5(hash)“==”(相等)<br>则输出flag<br>参考链接：</p><p><a href="https://www.jeddd.com/article/php-hash-comparison-flaw.html" target="_blank" rel="noopener">PHP 的弱类型与 Hash 比较缺陷（伪 MD5 碰撞）</a>        </p><h1 id="Misc1"><a href="#Misc1" class="headerlink" title="Misc1"></a>Misc1</h1><p>StegSolve 打开，切换通道，发现二维码，扫码即可   </p><h1 id="Misc2"><a href="#Misc2" class="headerlink" title="Misc2"></a>Misc2</h1><p>伪加密，7z打开，winhex查看key.exe<br>是倒过来的图片base64，<a href="!http://www.5ixuexiwang.com/str/reverse.php">在线文本反转，在线字符串逆序</a><br><a href="!http://imgbase64.duoshitong.com/">base64图片解密</a></p><h1 id="Misc3"><a href="#Misc3" class="headerlink" title="Misc3"></a>Misc3</h1><p>winhex打开<br>末尾发现可疑字符(一种转义字符)<br>&#107;&#101;&#121;&#123;&#121;&#111;&#117;&#32;&#97;&#114;&#101;&#32;&#114;&#105;&#103;&#104;&#116;&#125;<br>很神奇<br><img src="/2019/09/30/CUMTCTF-FINAL/Snipaste_2019-09-29_21-43-12.png" alt="神奇的转义字符"><br><a href="https://my.oschina.net/u/2269890/blog/674973" target="_blank" rel="noopener">关于&#dddd; 这种字符编码 如何解码 </a><br><a href="!https://blog.csdn.net/BenjaminfSociety/article/details/81481676">一道原题</a></p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;进了校赛决赛！(名次主要靠队友,而且学长放了好几个原题)加油&lt;/p&gt;
+&lt;h1 id=&quot;Web1&quot;&gt;&lt;a href=&quot;#Web1&quot; class=&quot;headerlink&quot; title=&quot;Web1&quot;&gt;&lt;/a&gt;Web1&lt;/h1&gt;&lt;p&gt;查看源码&lt;br&gt;给网址添加参数?source=1
+      
+    
+    </summary>
+    
+    
+    
+      <category term="CTF" scheme="http://yoursite.com/tags/CTF/"/>
+    
+  </entry>
   
   <entry>
     <title>安装配置</title>

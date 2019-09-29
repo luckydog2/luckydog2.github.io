@@ -1,6 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[CUMTCTF_FINAL]]></title>
+    <url>%2F2019%2F09%2F30%2FCUMTCTF-FINAL%2F</url>
+    <content type="text"><![CDATA[进了校赛决赛！(名次主要靠队友,而且学长放了好几个原题)加油 Web1查看源码给网址添加参数?source=1如果提交的seed和md5(hash)“==”(相等)则输出flag参考链接： PHP 的弱类型与 Hash 比较缺陷（伪 MD5 碰撞） Misc1StegSolve 打开，切换通道，发现二维码，扫码即可 Misc2伪加密，7z打开，winhex查看key.exe是倒过来的图片base64，在线文本反转，在线字符串逆序base64图片解密 Misc3winhex打开末尾发现可疑字符(一种转义字符)&#107;&#101;&#121;&#123;&#121;&#111;&#117;&#32;&#97;&#114;&#101;&#32;&#114;&#105;&#103;&#104;&#116;&#125;很神奇关于&#dddd; 这种字符编码 如何解码 一道原题]]></content>
+      <tags>
+        <tag>CTF</tag>
+      </tags>
+  </entry>
+  <entry>
     <title><![CDATA[安装配置]]></title>
     <url>%2F2019%2F09%2F25%2F%E5%AE%89%E8%A3%85%E9%85%8D%E7%BD%AE%2F</url>
     <content type="text"><![CDATA[LAMP配置]]></content>
