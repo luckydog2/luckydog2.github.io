@@ -3,7 +3,7 @@
   <entry>
     <title><![CDATA[CUMTCTF_FINAL]]></title>
     <url>%2F2019%2F09%2F30%2FCUMTCTF-FINAL%2F</url>
-    <content type="text"><![CDATA[进了校赛决赛！(名次主要靠队友,而且学长放了好几个原题)加油 Web1查看源码给网址添加参数?source=1如果提交的seed和md5(hash)“==”(相等)则输出flag参考链接： PHP 的弱类型与 Hash 比较缺陷（伪 MD5 碰撞） Misc1StegSolve 打开，切换通道，发现二维码，扫码即可 Misc2伪加密，7z打开，winhex查看key.exe是倒过来的图片base64，在线文本反转，在线字符串逆序base64图片解密 Misc3winhex打开末尾发现可疑字符(一种转义字符)&#107;&#101;&#121;&#123;&#121;&#111;&#117;&#32;&#97;&#114;&#101;&#32;&#114;&#105;&#103;&#104;&#116;&#125;很神奇关于&#dddd; 这种字符编码 如何解码 一道原题]]></content>
+    <content type="text"><![CDATA[进了校赛决赛！(名次主要靠队友,而且学长放了好几个原题)加油打铁没样，越打越像 Web1查看源码给网址添加参数?source=1如果提交的seed和md5(hash)“==”(相等)则输出flag参考链接： PHP 的弱类型与 Hash 比较缺陷（伪 MD5 碰撞） Misc1StegSolve 打开，切换通道，发现二维码，扫码即可 Misc2伪加密，7z打开，winhex查看key.exe是倒过来的图片base64，在线文本反转，在线字符串逆序base64图片解密 Misc3winhex打开末尾发现可疑字符(一种转义字符)&#107;&#101;&#121;&#123;&#121;&#111;&#117;&#32;&#97;&#114;&#101;&#32;&#114;&#105;&#103;&#104;&#116;&#125;很神奇关于&#dddd; 这种字符编码 如何解码 一道原题 Misc4burpsuite抓包，点击start后，查看抓包结果base64解密得到图片提示说用key值解密，将抓包结果send to repeater,发现key:123.com在线解密 Misc5假流量分析用wireshark打开流量包，在过滤栏搜索http，不知道为啥这样搞(只是跟着学长的WP复现了一下)根据提示社工，猜测这是一个QQ号：245816325加QQ,发现这个人的昵称和个性签名都是base64编码,神奇QQ昵称解密后是：”无聊！”个性签名解密后是要发邮件，向这个QQ发送邮件，得到自动回复base64解密，base32解密得到flag：flag{C1ever_B0y}感觉社工还挺有意思哈，好奇这个题是怎么出出来的 Misc6真流量分析这次来真的了目前不懂放上学长的WP]]></content>
       <tags>
         <tag>CTF</tag>
       </tags>
