@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2019-10-01T08:33:42.176Z</updated>
+  <updated>2019-10-10T15:00:20.995Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -15,6 +15,30 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>常见web漏洞解析</title>
+    <link href="http://yoursite.com/2019/10/11/%E5%B8%B8%E8%A7%81web%E6%BC%8F%E6%B4%9E%E8%A7%A3%E6%9E%90/"/>
+    <id>http://yoursite.com/2019/10/11/常见web漏洞解析/</id>
+    <published>2019-10-10T22:51:12.000Z</published>
+    <updated>2019-10-10T15:00:20.995Z</updated>
+    
+    <content type="html"><![CDATA[<p>我理解这些漏洞理解的比较慢，不断积累，慢慢沉淀，会理解的。<br>下面放上常见web漏洞的博文链接。<br><a href="https://paper.seebug.org/15/" target="_blank" rel="noopener">SQL注入攻击初级</a><br><a href="http://blog.nsfocus.net/xss-advance/" target="_blank" rel="noopener">XSS攻击进阶篇——那些年我们看不懂的XSS</a><br><a href="http://blog.nsfocus.net/xss-start-finish/" target="_blank" rel="noopener">XSS漏洞从入门到放弃</a><br><a href="https://tech.meituan.com/" target="_blank" rel="noopener">如何防止XSS攻击？</a></p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;我理解这些漏洞理解的比较慢，不断积累，慢慢沉淀，会理解的。&lt;br&gt;下面放上常见web漏洞的博文链接。&lt;br&gt;&lt;a href=&quot;https://paper.seebug.org/15/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;SQL注入攻击初级&lt;/a&gt;
+      
+    
+    </summary>
+    
+    
+    
+      <category term="web" scheme="http://yoursite.com/tags/web/"/>
+    
+  </entry>
   
   <entry>
     <title>CUMTCTF_FINAL</title>
