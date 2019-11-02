@@ -57,13 +57,13 @@
   };
 </script>
 
-  <meta name="description" content="既来之，则安之张老师说的很对，不去做，会一直迷下去。南邮CTF平台    Web签到题右键查看源码即可得到flag    md5 collision&amp;lt;?php    $md51 = md5(&amp;apos;QNKCDZO&amp;apos;);    $a = @$_GET[&amp;apos;a&amp;apos;];    $md52 = @md5($a);    if(isset($a)){    if ($a">
+  <meta name="description" content="既来之，则安之张老师说的很对，不去做，会一直迷下去。南邮CTF平台    Web签到题右键查看源码即可得到flag    md5 collision123456789101112&amp;lt;?php   $md51 = md5(&apos;QNKCDZO&apos;);   $a = @$_GET[&apos;a&apos;];   $md52 = @md5($a);   if(isset($a))&amp;#123;   if ($a != &apos;Q">
 <meta name="keywords" content="CTF">
 <meta property="og:type" content="article">
 <meta property="og:title" content="CGCTF">
 <meta property="og:url" content="http://yoursite.com/2019/10/13/CGCTF/index.html">
 <meta property="og:site_name" content="qingtian&#39;s blog">
-<meta property="og:description" content="既来之，则安之张老师说的很对，不去做，会一直迷下去。南邮CTF平台    Web签到题右键查看源码即可得到flag    md5 collision&amp;lt;?php    $md51 = md5(&amp;apos;QNKCDZO&amp;apos;);    $a = @$_GET[&amp;apos;a&amp;apos;];    $md52 = @md5($a);    if(isset($a)){    if ($a">
+<meta property="og:description" content="既来之，则安之张老师说的很对，不去做，会一直迷下去。南邮CTF平台    Web签到题右键查看源码即可得到flag    md5 collision123456789101112&amp;lt;?php   $md51 = md5(&apos;QNKCDZO&apos;);   $a = @$_GET[&apos;a&apos;];   $md52 = @md5($a);   if(isset($a))&amp;#123;   if ($a != &apos;Q">
 <meta property="og:locale" content="zh-CN">
 <meta property="og:image" content="http://yoursite.com/2019/10/13/CGCTF/Snipaste_2019-10-12_22-16-25.png">
 <meta property="og:image" content="http://yoursite.com/2019/10/13/CGCTF/Snipaste_2019-10-12_22-20-02.png">
@@ -74,10 +74,10 @@
 <meta property="og:image" content="http://yoursite.com/2019/10/13/CGCTF/Snipaste_2019-10-19_16-10-35.png">
 <meta property="og:image" content="http://yoursite.com/2019/10/13/CGCTF/Snipaste_2019-10-19_16-43-48.png">
 <meta property="og:image" content="http://yoursite.com/2019/10/13/CGCTF/Snipaste_2019-10-19_16-55-14.png">
-<meta property="og:updated_time" content="2019-10-26T02:46:15.739Z">
+<meta property="og:updated_time" content="2019-11-02T14:35:00.498Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="CGCTF">
-<meta name="twitter:description" content="既来之，则安之张老师说的很对，不去做，会一直迷下去。南邮CTF平台    Web签到题右键查看源码即可得到flag    md5 collision&amp;lt;?php    $md51 = md5(&amp;apos;QNKCDZO&amp;apos;);    $a = @$_GET[&amp;apos;a&amp;apos;];    $md52 = @md5($a);    if(isset($a)){    if ($a">
+<meta name="twitter:description" content="既来之，则安之张老师说的很对，不去做，会一直迷下去。南邮CTF平台    Web签到题右键查看源码即可得到flag    md5 collision123456789101112&amp;lt;?php   $md51 = md5(&apos;QNKCDZO&apos;);   $a = @$_GET[&apos;a&apos;];   $md52 = @md5($a);   if(isset($a))&amp;#123;   if ($a != &apos;Q">
 <meta name="twitter:image" content="http://yoursite.com/2019/10/13/CGCTF/Snipaste_2019-10-12_22-16-25.png">
   <link rel="canonical" href="http://yoursite.com/2019/10/13/CGCTF/">
 
@@ -320,7 +320,7 @@
                   <i class="fa fa-calendar-check-o"></i>
                 </span>
                 <span class="post-meta-item-text">更新于</span>
-                <time title="修改时间：2019-10-26 02:46:15" itemprop="dateModified" datetime="2019-10-26T02:46:15Z">2019-10-26</time>
+                <time title="修改时间：2019-11-02 14:35:00" itemprop="dateModified" datetime="2019-11-02T14:35:00Z">2019-11-02</time>
               </span>
             
           
@@ -367,18 +367,9 @@
       
         <p>既来之，则安之<br>张老师说的很对，不去做，会一直迷下去。<br>南邮CTF平台   </p>
 <h1 id="Web签到题"><a href="#Web签到题" class="headerlink" title="Web签到题"></a>Web签到题</h1><p>右键查看源码即可得到flag<br><img src="/2019/10/13/CGCTF/Snipaste_2019-10-12_22-16-25.png" alt="flag">   </p>
-<h1 id="md5-collision"><a href="#md5-collision" class="headerlink" title="md5 collision"></a>md5 collision</h1><pre><code>&lt;?php   
-$md51 = md5(&apos;QNKCDZO&apos;);   
-$a = @$_GET[&apos;a&apos;];   
-$md52 = @md5($a);   
-if(isset($a)){   
-if ($a != &apos;QNKCDZO&apos; &amp;&amp; $md51 == $md52) {   
-    echo &quot;nctf{*****************}&quot;;   
-} else {   
-    echo &quot;false!!!&quot;;   
-}}    
-else{echo &quot;please input a&quot;;}    
-?&gt;</code></pre><p>在php中，@是忽略报错的符号。假如你有@符号的这行有错误，那么错误不会显示在网页上。MD5是php中的加密函数。<br><a href="http://zjw.dropsec.xyz/%E4%BB%A3%E7%A0%81/2016/10/09/php%E5%BC%B1%E7%B1%BB%E5%9E%8B.html" target="_blank" rel="noopener">php弱类型</a><br>url?a=240610708<br>或者其他md5(a)=0e……的a值   </p>
+<h1 id="md5-collision"><a href="#md5-collision" class="headerlink" title="md5 collision"></a>md5 collision</h1><figure class="highlight php"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">&lt;?php</span>   </span><br><span class="line">$md51 = md5(<span class="string">'QNKCDZO'</span>);   </span><br><span class="line">$a = @$_GET[<span class="string">'a'</span>];   </span><br><span class="line">$md52 = @md5($a);   </span><br><span class="line"><span class="keyword">if</span>(<span class="keyword">isset</span>($a))&#123;   </span><br><span class="line"><span class="keyword">if</span> ($a != <span class="string">'QNKCDZO'</span> &amp;&amp; $md51 == $md52) &#123;   </span><br><span class="line">    <span class="keyword">echo</span> <span class="string">"nctf&#123;*****************&#125;"</span>;   </span><br><span class="line">&#125; <span class="keyword">else</span> &#123;   </span><br><span class="line">    <span class="keyword">echo</span> <span class="string">"false!!!"</span>;   </span><br><span class="line">&#125;&#125;    </span><br><span class="line"><span class="keyword">else</span>&#123;<span class="keyword">echo</span> <span class="string">"please input a"</span>;&#125;    </span><br><span class="line"><span class="meta">?&gt;</span></span><br></pre></td></tr></table></figure>
+
+<p>在php中，@是忽略报错的符号。假如你有@符号的这行有错误，那么错误不会显示在网页上。MD5是php中的加密函数。<br><a href="http://zjw.dropsec.xyz/%E4%BB%A3%E7%A0%81/2016/10/09/php%E5%BC%B1%E7%B1%BB%E5%9E%8B.html" target="_blank" rel="noopener">php弱类型</a><br>url?a=240610708<br>或者其他md5(a)=0e……的a值   </p>
 <h1 id="签到2"><a href="#签到2" class="headerlink" title="签到2"></a>签到2</h1><p>火狐浏览器F12查看源码<br><img src="/2019/10/13/CGCTF/Snipaste_2019-10-12_22-20-02.png" alt="1"><br>要求输入口令：zhimakaimen<br>maxlength=1;但是”zhimakaimen”长度为11<br>将10改为11;得到flag   </p>
 <h1 id="这题不是web"><a href="#这题不是web" class="headerlink" title="这题不是web"></a>这题不是web</h1><p>下载图片，winhex打开下拉至最后，发现flag</p>
 <h1 id="层层递进"><a href="#层层递进" class="headerlink" title="层层递进"></a>层层递进</h1><p>(火狐浏览器)查看源码,点击SO.html,不断递进，发现404.html,获得flag  </p>
