@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2019-11-23T03:01:06.708Z</updated>
+  <updated>2019-11-02T14:37:51.234Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -15,30 +15,6 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
-  
-  <entry>
-    <title>2019.11.23渗透实战</title>
-    <link href="http://yoursite.com/2019/11/23/2019-11-23%E6%B8%97%E9%80%8F%E5%AE%9E%E6%88%98/"/>
-    <id>http://yoursite.com/2019/11/23/2019-11-23渗透实战/</id>
-    <published>2019-11-23T10:56:32.000Z</published>
-    <updated>2019-11-23T03:01:06.708Z</updated>
-    
-    <content type="html"><![CDATA[<p>御剑扫描<br>在<a href="http://192.168.1.240/e/admin/" target="_blank" rel="noopener">http://192.168.1.240/e/admin/</a><br>登录test<br>密码 123456<br>在<a href="http://192.168.1.240/e/admin/admin.php" target="_blank" rel="noopener">http://192.168.1.240/e/admin/admin.php</a><br>数据更新看到第一个flag</p><p><img src="/2019/11/23/2019-11-23渗透实战/E:%5Cblog%5Csource_posts%5C2019-11-23%E6%B8%97%E9%80%8F%E5%AE%9E%E6%88%98%5CSnipaste_2019-11-23_10-42-35.png" alt="1"></p><p><img src="/2019/11/23/2019-11-23渗透实战/E:%5Cblog%5Csource_posts%5C2019-11-23%E6%B8%97%E9%80%8F%E5%AE%9E%E6%88%98%5CSnipaste_2019-11-23_10-39-39.png" alt="2"></p>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;p&gt;御剑扫描&lt;br&gt;在&lt;a href=&quot;http://192.168.1.240/e/admin/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;http://192.168.1.240/e/admin/&lt;/a&gt;&lt;br&gt;登录test&lt;br&gt;密码 123456&lt;
-      
-    
-    </summary>
-    
-    
-    
-      <category term="实战" scheme="http://yoursite.com/tags/%E5%AE%9E%E6%88%98/"/>
-    
-  </entry>
   
   <entry>
     <title>CGCTF</title>
